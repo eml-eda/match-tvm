@@ -114,7 +114,7 @@ set(USE_SPIRV_KHR_INTEGER_DOT_PRODUCT OFF)
 set(USE_OPENGL OFF)
 
 # Whether enable MicroTVM runtime
-set(USE_MICRO OFF)
+set(USE_MICRO ON)
 
 # Whether enable RPC runtime
 set(USE_RPC ON)
