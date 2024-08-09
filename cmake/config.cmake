@@ -144,7 +144,7 @@ set(USE_PIPELINE_EXECUTOR OFF)
 set(USE_PROFILER ON)
 
 # Whether enable microTVM standalone runtime
-set(USE_MICRO_STANDALONE_RUNTIME OFF)
+set(USE_MICRO_STANDALONE_RUNTIME ON)
 
 # Whether build with LLVM support
 # Requires LLVM version >= 4.0
@@ -310,7 +310,7 @@ set(USE_CLML_GRAPH_EXECUTOR OFF)
 set(USE_ANTLR OFF)
 
 # Whether use Relay debug mode
-set(USE_RELAY_DEBUG OFF)
+set(USE_RELAY_DEBUG ON)
 
 # Whether to build fast VTA simulator driver
 set(USE_VTA_FSIM OFF)
